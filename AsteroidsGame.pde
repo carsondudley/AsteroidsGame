@@ -12,7 +12,7 @@ public void setup()
    stars[i] = new Stars(((int)(Math.random()*500)), ((int)(Math.random()*500)));
   }
   
-    for (int i = 0; i< 5; i++){
+    for (int i = 0; i< 7; i++){
      asteroids.add(new Asteroid());
   }
 }
