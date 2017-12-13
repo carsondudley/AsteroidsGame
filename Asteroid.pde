@@ -1,9 +1,9 @@
 class Asteroid extends Floater{
   private int rotSpeed;
   public Asteroid(){
-    corners = 4;
-    int xC[] = {-11, 7, 13, 6, -11};
-    int yC[] = {-8, -8, 0, 10, 8};
+    corners = 5;
+    int xC[] = {-11, 7, 13, 6, -11, -5};
+    int yC[] = {-8, -8, 0, 10, 8, 0};
     xCorners = xC;
     yCorners = yC;
     myColor = 255;
